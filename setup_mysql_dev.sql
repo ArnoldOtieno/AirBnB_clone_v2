@@ -1,5 +1,5 @@
 -- Script that prepares MYSQL server for project
-CREATE DATABASE IF NOT EXISTS hbnb_dev_db;
+CREATE DATABASE IF NOT EXISTS 'hbnb_dev_db';
 
 CREATE USER IF NOT EXISTS 'hbnb_dev'@'localhost'
 IDENTIFIED BY 'hbnb_test_pwd';
