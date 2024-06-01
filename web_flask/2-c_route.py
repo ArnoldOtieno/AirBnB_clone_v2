@@ -24,5 +24,6 @@ def c_text(text):
     text_no_underscore = text.replace('_', ' ')
     return "C {}".format(text_no_underscore)
 
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='5000')
